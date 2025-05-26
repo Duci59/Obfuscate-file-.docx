@@ -80,11 +80,6 @@ Function Get-ReverseShell() {
         [switch]$ShowChanges
     )
     Begin {
-        Write-Output ''
-        Write-Output '     >> Layer 0 Reverse Shell'
-        Write-Output '     >> https://github.com/gh0x0st'
-        Write-Output ''
-
         # Obtains the raw payload
         $Template = Get-Template | Out-String
     }
